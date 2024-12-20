@@ -110,8 +110,8 @@ do
     echo "Press 2 To  Start CALL Bomber "
     echo "Press 3 To  Start MAIL Bomber (Coming Soon)"
     echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
-    echo "this tool is made by https.dishant.ceh ( Ɇ†ɆᏒИ₳Ł ) "
     echo "Press 5 To  Exit "
+    echo "this tool is made by https.dishant.ceh ( Ɇ†ɆᏒИ₳Ł ) "
     read ch
     clear
     if [ $ch -eq 1 ];then
