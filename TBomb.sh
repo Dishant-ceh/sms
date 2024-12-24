@@ -105,13 +105,11 @@ while :
 do
     banner
     echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
-    echo " "
+    echo "This tool is made by https.dishant.ceh (TEAM Ɇ†ɆᏒИ₳Ł )  "
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
-    echo "Press 3 To  Start MAIL Bomber (Coming Soon)"
-    echo "Press 4 To  Update (Works On Linux And Linux Emulators) "
-    echo "Press 5 To  Exit "
-    echo "this tool is made by https.dishant.ceh ( Ɇ†ɆᏒИ₳Ł ) "
+    echo "Press 3 To  Update (Works On Linux And Linux Emulators) "
+    echo "Press 4 To  Exit "
     read ch
     clear
     if [ $ch -eq 1 ];then
@@ -120,7 +118,7 @@ do
     elif [ $ch -eq 2 ];then
         $PYTHON bomber.py --call
         exit
-    elif [ $ch -eq 3 ];then
+    elif [ $ch -eq 0 ];then
         $PYTHON bomber.py --mail
         exit
     elif [ $ch -eq 4 ];then
